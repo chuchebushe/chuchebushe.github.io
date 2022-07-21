@@ -4,9 +4,9 @@
   --color-light: #f4f4f4;
   --color-dark: #525252;
   --color-black: #141415;
-  --color-primary: #f24e1e;
-  --color-primary-light: hsl(14, 89%, 53%, 12%);
-  --color-success: #29f5a6;
+  --color-primary: #37bae2;
+  --color-primary-light: rgba(95, 223, 240, 0.12);
+  --color-success: #18990d;
   --color-warning: #ffce31;
 
   --transition: all 300ms ease;
@@ -148,7 +148,7 @@ nav button {
 }
 
 nav h3 {
-  color: var(--color-primary);
+  color: var(--color-dark);
 }
 
 nav .container ul {
@@ -338,7 +338,7 @@ section.skills .container .skill {
 }
 
 section.skills .skill .head {
-  background: var(--color-primary);
+  background: var(--color-success);
   display: flex;
   justify-content: space-between;
   align-items: center;
